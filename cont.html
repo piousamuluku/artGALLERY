@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Art Gallery</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    {
+    font-family:'poppins', sans serif;
+    }
+    .highlight{
+       background-color:white;
+     }
+    body{
+       background-image: url("contact back.webp");
+       background-size: cover;
+       background-repeat:no-repeat;
+       background-position: center;
+       background-attachment: fixed;
+    }
+    .box{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       min-height: 90vh;
+    }
+    .container{
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        padding: 0 15px 0 15px;
+    }
+    span{
+        color: grey;
+        font-size:small;
+        dispplay: flex;
+        justify-content: center;
+        padding:10px 0 10px 0;
+     }
+     header {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+     }
+     	nav ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			display: flex;
+			justify-content: space-between;
+		}
+		nav ul li {
+			margin: 0 10px;
+		}
+		nav ul li a {
+			color:black;
+			text-decoration: none;
+			font-weight: bold;
+			font-size: 18px;
+			transition: all 0.3s ease;
+		}
+		nav ul li a:hover {
+			color: blue;
+		}
+     header1{
+        color:brown;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        padding: 10px 0 10px 0;
+     } 
+     .input-field{
+        display: flex;
+        flex-direction: column;
+        margin:5px;
+      }
+     .input{
+        height:45px;
+        width:87%;
+        border: none;
+        outline: none;
+        border-radius: 30px;
+        color: cream;
+        padding: 0 0 0 42px;
+        background: rgba(255,255,255,0.1);
+      }
+      i{
+         position:relative;
+         top: -31px;
+         left: 17px;
+         color: white;
+      }
+      ::-webkit-input-placeholder{
+           color: white;
+      }
+      .send{
+           border: none;
+           border-radius: 30px;
+           font-sze: 15px;
+           height: 45px;
+           outline: none;
+           width: 100%;
+           background: rgba(255,255,255,0.1);
+           cursor:  pointer;
+           transition: .3s;
+      }
+      .send:hover{
+           box-shadow:1px 5px 7px 1px rgba(0,0,0,0.2);
+      }
+</style>    
+</head>
+<body>
+<header>
+                <div class="logo">
+			<img src="logo.png" alt="Art Gallery logo" width="50" height="50"/>
+		</div>
+		<h1>Art Gallery</h1>
+	</header>
+	<nav>
+                 <div class="highlight">
+		<ul>
+			<li><a href="artprojectofficil.html">Home</a></li>
+			<li><a href="About.html">About</a></li>
+			<li><a href="Artist.html">Artists</a></li>
+			<li><a href="Exhibition.html">Exhibitions</a></li>
+			<li><a href="#">Contact</a></li>
+                 </ul>
+               </div>
+	</nav>
+    <div class="box">
+      <div class="container">
+        <div class="top-header">
+          <span>Want to make more enquiries?</span>
+          <header1>Contact Us</header1>
+       </div>
+   <div class="input-field">
+        <input type="text" class="input" placeholder="Full Name" required>
+          <i class="bx bx-name"></i>
+  </div>
+  <div class="input-field">
+        <input type="email" class="input" placeholder="Email" required>
+  </div>
+   <div class="input-field">
+        <input type="text" class="input" placeholder="Send us a message" required>
+  </div>
+  <div class="input-field">
+        <input type="send" class="send" value="Send">
+  </div>
+  
+    </div>
+   </div>
+</body>
+</html>
